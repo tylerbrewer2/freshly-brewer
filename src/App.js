@@ -7,14 +7,15 @@ import {
 
 import Splash from './components/Splash';
 import Home from './containers/Home';
+import RSVP from './containers/RSVP';
 import './App.css';
-
 
 const App = () => (
   <Router>
     <div className="App">
       <Route exact path="/" component={Home}/>
       <Route path="/splash" component={Splash}/>
+      <Route path="/rsvp" component={RSVP}/>
     </div>
   </Router>
 )
