@@ -1,6 +1,0 @@
-exports[`test renders correctly 1`] = `
-<ul
-  className="sc-bdVaJa jnOPQH">
-  Test children
-</ul>
-`;

@@ -1,13 +1,11 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 
-import NavList from './NavList';
+import FloatWrapper from './FloatWrapper';
 
 it('renders correctly', () => {
   const tree = renderer.create(
-    <NavList>
-      Test children
-    </NavList>
+    <FloatWrapper />
   ).toJSON();
   expect(tree).toMatchSnapshot();
 });
