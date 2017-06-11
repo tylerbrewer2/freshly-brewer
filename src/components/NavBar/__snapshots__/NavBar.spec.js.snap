@@ -10,29 +10,40 @@ exports[`test renders correctly 1`] = `
   </div>
   <div
     className="col-xs-6">
-    <ul
-      className="sc-bwzfXH cVCpNP">
-      <li
-        className="sc-htpNat ccEEWR">
+    <div
+      className="sc-bwzfXH kOgWQe"
+      direction="right">
+      <a
+        className="sc-htpNat eXURAF"
+        href="/"
+        onClick={[Function]}>
         HOME
-      </li>
-      <li
-        className="sc-htpNat ccEEWR">
+      </a>
+      <a
+        className="sc-htpNat eXURAF"
+        href="/"
+        onClick={[Function]}>
         CEREMONY
-      </li>
-      <li
-        className="sc-htpNat ccEEWR">
+      </a>
+      <a
+        className="sc-htpNat eXURAF"
+        href="/"
+        onClick={[Function]}>
         GALLERY
-      </li>
-      <li
-        className="sc-htpNat ccEEWR">
+      </a>
+      <a
+        className="sc-htpNat eXURAF"
+        href="/"
+        onClick={[Function]}>
         PARTY
-      </li>
-      <li
-        className="sc-htpNat ccEEWR">
+      </a>
+      <a
+        className="sc-htpNat eXURAF"
+        href="/"
+        onClick={[Function]}>
         FAQ
-      </li>
-    </ul>
+      </a>
+    </div>
   </div>
 </div>
 `;

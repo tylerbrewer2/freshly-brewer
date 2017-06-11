@@ -1,6 +1,8 @@
 exports[`test renders correctly 1`] = `
 <a
-  className="sc-bwzfXH cRSDhw">
+  className="sc-bwzfXH cRSDhw"
+  href="/"
+  onClick={[Function]}>
   Test
 </a>
 `;

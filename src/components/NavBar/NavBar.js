@@ -4,8 +4,8 @@ import styled from 'styled-components';
 import Row from '../Row';
 import Col from '../Col';
 import Header from '../Header';
+import FloatWrapper from '../FloatWrapper';
 
-import NavList from './NavList';
 import NavItem from './NavItem';
 
 const NavBarCore = ({ className }) => {
@@ -18,13 +18,13 @@ const NavBarCore = ({ className }) => {
         <Header tag="h1">MORGAN & TYLER</Header>
       </Col>
       <Col width={6}>
-        <NavList>
-          <NavItem>HOME</NavItem>
-          <NavItem>CEREMONY</NavItem>
-          <NavItem>GALLERY</NavItem>
-          <NavItem>PARTY</NavItem>
-          <NavItem>FAQ</NavItem>
-        </NavList>
+        <FloatWrapper direction='right'>
+          <NavItem to="/">HOME</NavItem>
+          <NavItem to="/">CEREMONY</NavItem>
+          <NavItem to="/">GALLERY</NavItem>
+          <NavItem to="/">PARTY</NavItem>
+          <NavItem to="/">FAQ</NavItem>
+        </FloatWrapper>
       </Col>
     </Row>
   )
