@@ -6,13 +6,16 @@ import PersonalInfo from '../../components/PersonalInfo';
 import RSVPSection from '../../components/RSVPSection';
 import Splash from '../../components/Splash';
 
-import chair from '../../images/chair.jpg'
+import field from '../../images/field.jpg';
 import dc from '../../images/dc.jpg';
 
 const Home = ({}) => {
   return (
     <div>
-      <FullWidthImage src={chair}/>
+      <FullWidthImage
+        src={field}
+        banner
+      />
       <PersonalInfo />
       <CountdownSection backgroundImage={dc}/>
       <RSVPSection />

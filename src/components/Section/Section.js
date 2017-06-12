@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const SectionCore = ({className, children, backgroundImage }) => {
+const SectionCore = ({className, children }) => {
   return (
     <section className={className}>
       {children}
@@ -11,10 +11,9 @@ const SectionCore = ({className, children, backgroundImage }) => {
 
 const Section = styled(SectionCore)`
   padding: 120px 0;
-  background-image: url(${props => props.backgroundImage});
   text-align: ${props => props.centered ? 'center' : ''};
-  background-size: cover;
-  background-position: center;
+  max-width: ${props => props.full ? '' : '90%'};
+  margin: 0 auto;
 `
 
 export default Section;
