@@ -51,6 +51,8 @@ const FooterCore = ({ className }) => {
 const Footer = styled(FooterCore)`
   padding: 120px 0;
   border-top: .5px solid #4A4A4A;
+  max-width: 90%;
+  margin: 0 auto;
 `
 
 export default Footer;

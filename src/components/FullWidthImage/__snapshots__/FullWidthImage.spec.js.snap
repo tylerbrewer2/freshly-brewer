@@ -1,4 +1,4 @@
 exports[`test renders correctly 1`] = `
-<div
-  className="sc-bdVaJa eHbHUx" />
+<section
+  className="sc-bdVaJa kowZPd" />
 `;

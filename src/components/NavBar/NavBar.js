@@ -32,6 +32,8 @@ const NavBarCore = ({ className }) => {
 
 const NavBar = styled(NavBarCore)`
   height: 100px;
+  max-width: 90%;
+  margin: 0 auto;
 `
 
 export default NavBar;

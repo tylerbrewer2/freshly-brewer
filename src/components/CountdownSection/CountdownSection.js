@@ -3,12 +3,15 @@ import styled from 'styled-components';
 
 import CountdownClock from '../CountdownClock';
 import Section from '../Section';
+import FullWidthImage from '../FullWidthImage';
 
 const CountdownSection = ({backgroundImage}) => {
   return (
-    <Section backgroundImage={backgroundImage}>
-      <CountdownClock />
-    </Section>
+    <FullWidthImage src={backgroundImage}>
+      <Section>
+        <CountdownClock />
+      </Section>
+    </FullWidthImage>
   )
 }
 

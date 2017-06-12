@@ -1,11 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const FullWidthImage = styled.div`
+const FullWidthImage = styled.section`
   background-image: url(${props => props.src});
   background-size: cover;
   background-position: center;
-  height: 800px;
+  height: ${props => props.banner ? 'calc(100vh - 100px)': ''};
+  width: 100%;
 `
 
 export default FullWidthImage;

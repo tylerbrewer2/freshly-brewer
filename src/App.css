@@ -12,8 +12,3 @@
   font-family: 'AvenirNextBold';
   src: url(styles/fonts/avenir-next-bold.ttf);
 }
-
-.App {
-  width: 90%;
-  margin: 0 auto;
-}
