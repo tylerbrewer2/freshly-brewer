@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import dateFns from 'date-fns';
 
 const MARRIAGE_DATE = new Date(2017, 11, 2);
 

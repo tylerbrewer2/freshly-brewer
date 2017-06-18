@@ -1,4 +1,3 @@
-import React from 'react';
 import styled from 'styled-components';
 
 const Button = styled.button`
@@ -17,6 +16,7 @@ const Button = styled.button`
     cursor: pointer;
     background-color: #030C11;
   };
+  width: ${ props => props.fullWidth ? '100%' : ''};
 `
 
 export default Button;

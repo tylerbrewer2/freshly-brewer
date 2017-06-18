@@ -1,7 +1,7 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 
-import Col from './Col'
+import Col from './Col';
 
 it('renders correctly', () => {
   const tree = renderer.create(

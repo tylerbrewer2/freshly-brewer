@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import {
   BrowserRouter as Router,
   Route,
-  Link
 } from 'react-router-dom'
 
 import routes from './routes.js';
@@ -10,9 +9,6 @@ import routes from './routes.js';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 
-import Splash from './components/Splash';
-import Home from './containers/Home';
-import RSVP from './containers/RSVP';
 import './App.css';
 
 const App = () => (
