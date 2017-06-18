@@ -1,10 +1,11 @@
 import React from 'react';
 
-const Row = ({ className, children, middle}) => {
-  const middleClass = middle ? 'middle-xs' : undefined;
+const Row = ({ className, children, middle, center }) => {
+  const middleClass = middle ? 'middle-xs' : '';
+  const centerClass = center ? 'center-xs' : '';
 
   return(
-    <div className={`${className} ${middleClass} row`}>
+    <div className={`${className} ${middleClass} ${centerClass} row`}>
       {children}
     </div>
   )

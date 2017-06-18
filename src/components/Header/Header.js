@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const HeaderCore = ({ className, tag, children }) => {
+const HeaderCore = ({ className, tag, marginBottom, children }) => {
   const HeaderTag = tag || "h1";
 
   return (
@@ -13,6 +13,7 @@ const Header = styled(HeaderCore)`
   margin: 0;
   font-family: "FreightBook", "serif";
   letter-spacing: 3px;  
+  margin-bottom: ${props => props.marginBottom ? props.marginBottom : ''}
 `
 
 export default Header;

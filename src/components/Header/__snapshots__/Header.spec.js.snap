@@ -1,6 +1,6 @@
 exports[`test renders correctly 1`] = `
 <h4
-  className="sc-bdVaJa bErzIe">
+  className="sc-bdVaJa jqgrlj">
   Test Header
 </h4>
 `;

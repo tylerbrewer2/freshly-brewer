@@ -1,15 +1,16 @@
 import React from 'react';
 
+// Components
 import CountdownSection from '../../components/CountdownSection';
 import FullWidthImage from '../../components/FullWidthImage';
 import PersonalInfo from '../../components/PersonalInfo';
 import RSVPSection from '../../components/RSVPSection';
-import Splash from '../../components/Splash';
 
+// Images
 import field from '../../images/field.jpg';
 import dc from '../../images/dc.jpg';
 
-const Home = ({}) => {
+const Home = () => {
   return (
     <div>
       <FullWidthImage

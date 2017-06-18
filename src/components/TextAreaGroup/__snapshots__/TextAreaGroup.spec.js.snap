@@ -1,0 +1,19 @@
+exports[`component structure renders correctly 1`] = `
+<div
+  className="col-xs-12">
+  <div
+    className="sc-htpNat hvvDZo">
+    <label
+      className="sc-bdVaJa fxdtZh"
+      for={undefined}>
+      Test label
+    </label>
+    <textarea
+      className="sc-bwzfXH hQSOcI"
+      id="identifier"
+      name="identifier"
+      onChange={[Function]}
+      value="Test value" />
+  </div>
+</div>
+`;

@@ -1,22 +1,21 @@
 import React from 'react';
 
-import AttendeeCreator from '../../utilities/AttendeeCreator';
+// Components
+import FullWidthImage from '../../components/FullWidthImage';
+import RSVPForm from '../../components/RSVPForm';
+
+// Images
+import fieldbw from '../../images/fieldbw.png'
 
 const RSVP = () => {
-  function onClick() {
-    const attendee = {
-      firstName: 'Tyler',
-      lastName: 'Brewer',
-      attending: true,
-      message: "I'm excited to be attending!"
-    }
-
-    const attendeeCreator = new AttendeeCreator(attendee);
-    attendeeCreator.create
-  }
-
   return (
-    <button onClick={onClick}>Test firebase</button>
+    <section>
+      <FullWidthImage
+        src={fieldbw}
+        banner
+      />
+      <RSVPForm />
+    </section>
   );
 }
 

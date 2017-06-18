@@ -1,0 +1,153 @@
+exports[`component structure renders correctly 1`] = `
+<section>
+  <div
+    className="undefined  center-xs row">
+    <div
+      className="col-xs-6">
+      <section
+        className="sc-bxivhb eianJZ">
+        <h1
+          className="sc-bdVaJa dcMGOa">
+          RSVP for December 2nd, 2017
+        </h1>
+        <form
+          onSubmit={[Function]}>
+          <div
+            className="col-xs-12">
+            <div
+              className="sc-bZQynM bSnXeh">
+              <label
+                className="sc-ifAKCX iPUEyZ"
+                for={undefined}>
+                Email*
+              </label>
+              <input
+                className="sc-EHOje iUexnX"
+                id="email"
+                name="email"
+                onChange={[Function]}
+                type="text"
+                value="" />
+            </div>
+          </div>
+          <div
+            className="col-xs-12">
+            <div
+              className="sc-bZQynM bSnXeh">
+              <label
+                className="sc-ifAKCX iPUEyZ"
+                for={undefined}>
+                First Name*
+              </label>
+              <input
+                className="sc-EHOje iUexnX"
+                id="firstName"
+                name="firstName"
+                onChange={[Function]}
+                type="text"
+                value="" />
+            </div>
+          </div>
+          <div
+            className="col-xs-12">
+            <div
+              className="sc-bZQynM bSnXeh">
+              <label
+                className="sc-ifAKCX iPUEyZ"
+                for={undefined}>
+                Last Name*
+              </label>
+              <input
+                className="sc-EHOje iUexnX"
+                id="lastName"
+                name="lastName"
+                onChange={[Function]}
+                type="text"
+                value="" />
+            </div>
+          </div>
+          <div
+            className="col-xs-12">
+            <div
+              className="sc-bZQynM bSnXeh">
+              <label
+                className="sc-ifAKCX iPUEyZ"
+                for={undefined}>
+                Will you be attending?*
+              </label>
+              <input
+                className="sc-EHOje iUexnX"
+                id="attending"
+                name="attending"
+                onChange={[Function]}
+                type="text"
+                value="" />
+            </div>
+          </div>
+          <div
+            className="col-xs-12">
+            <div
+              className="sc-bZQynM bSnXeh">
+              <label
+                className="sc-ifAKCX iPUEyZ"
+                for={undefined}>
+                Who else is coming with you?
+              </label>
+              <input
+                className="sc-EHOje iUexnX"
+                id="extraAttendees"
+                name="extraAttendees"
+                onChange={[Function]}
+                type="text"
+                value="" />
+            </div>
+          </div>
+          <div
+            className="col-xs-12">
+            <div
+              className="sc-bZQynM bSnXeh">
+              <label
+                className="sc-ifAKCX iPUEyZ"
+                for={undefined}>
+                Do you have any song suggestions?
+              </label>
+              <input
+                className="sc-EHOje iUexnX"
+                id="songSuggestion"
+                name="songSuggestion"
+                onChange={[Function]}
+                type="text"
+                value="" />
+            </div>
+          </div>
+          <div
+            className="col-xs-12">
+            <div
+              className="sc-htoDjs bswhhT">
+              <label
+                className="sc-ifAKCX iPUEyZ"
+                for={undefined}>
+                Are you as excited as we are? Let us know!
+              </label>
+              <textarea
+                className="sc-gzVnrw bYhlWP"
+                id="message"
+                name="message"
+                onChange={[Function]}
+                value="" />
+            </div>
+          </div>
+          <div
+            className="col-xs-12">
+            <button
+              className="sc-bwzfXH bOFSPc"
+              type="submit">
+              SUBMIT
+            </button>
+          </div>
+        </form>
+      </section>
+    </div>
+  </div>
+</section>
+`;
