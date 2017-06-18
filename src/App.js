@@ -4,6 +4,9 @@ import {
   Route,
 } from 'react-router-dom'
 
+// React Router scroll helper
+import ScrollToTop from './components/ScrollToTop';
+
 import routes from './routes.js';
 
 import NavBar from './components/NavBar';
@@ -13,18 +16,20 @@ import './App.css';
 
 const App = () => (
   <Router>
-    <div className="App">
-      <NavBar />
-      {routes.map((route, i) => (
-        <Route
-          key={i}
-          exact
-          path={route.path}
-          component={route.component}
-        />
-      ))}
-      <Footer />
-    </div>
+    <ScrollToTop>
+      <div className="App">
+        <NavBar />
+        {routes.map((route, i) => (
+          <Route
+            key={i}
+            exact
+            path={route.path}
+            component={route.component}
+          />
+        ))}
+        <Footer />
+      </div>
+    </ScrollToTop>
   </Router>
 )
 

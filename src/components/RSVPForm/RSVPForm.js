@@ -19,7 +19,7 @@ export default class RSVPForm extends React.Component {
     songSuggestion: '',
     message: '',
     response: undefined,
-  }  
+  }
 
   onChange = (e) => {
     const state = Object.assign({}, this.state)
