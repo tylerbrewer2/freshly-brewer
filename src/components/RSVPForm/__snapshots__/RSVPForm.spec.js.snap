@@ -3,22 +3,26 @@ exports[`component structure renders correctly 1`] = `
   <div
     className="undefined  center-xs row">
     <div
-      className="col-xs-6">
+      className="col-xs-undefined 
+          undefined 
+          undefined">
       <section
         className="sc-bxivhb eianJZ">
         <h1
-          className="sc-bdVaJa dcMGOa">
+          className="sc-bdVaJa fOkMPb">
           RSVP for December 2nd, 2017
         </h1>
         <form
           onSubmit={[Function]}>
           <div
-            className="col-xs-12">
+            className="col-xs-12 
+                undefined 
+                undefined">
             <div
               className="sc-bZQynM bSnXeh">
               <label
                 className="sc-ifAKCX iPUEyZ"
-                for={undefined}>
+                htmlFor="email">
                 Email*
               </label>
               <input
@@ -31,12 +35,14 @@ exports[`component structure renders correctly 1`] = `
             </div>
           </div>
           <div
-            className="col-xs-12">
+            className="col-xs-12 
+                undefined 
+                undefined">
             <div
               className="sc-bZQynM bSnXeh">
               <label
                 className="sc-ifAKCX iPUEyZ"
-                for={undefined}>
+                htmlFor="firstName">
                 First Name*
               </label>
               <input
@@ -49,12 +55,14 @@ exports[`component structure renders correctly 1`] = `
             </div>
           </div>
           <div
-            className="col-xs-12">
+            className="col-xs-12 
+                undefined 
+                undefined">
             <div
               className="sc-bZQynM bSnXeh">
               <label
                 className="sc-ifAKCX iPUEyZ"
-                for={undefined}>
+                htmlFor="lastName">
                 Last Name*
               </label>
               <input
@@ -67,12 +75,14 @@ exports[`component structure renders correctly 1`] = `
             </div>
           </div>
           <div
-            className="col-xs-12">
+            className="col-xs-12 
+                undefined 
+                undefined">
             <div
               className="sc-bZQynM bSnXeh">
               <label
                 className="sc-ifAKCX iPUEyZ"
-                for={undefined}>
+                htmlFor="attending">
                 Will you be attending?*
               </label>
               <input
@@ -85,12 +95,14 @@ exports[`component structure renders correctly 1`] = `
             </div>
           </div>
           <div
-            className="col-xs-12">
+            className="col-xs-12 
+                undefined 
+                undefined">
             <div
               className="sc-bZQynM bSnXeh">
               <label
                 className="sc-ifAKCX iPUEyZ"
-                for={undefined}>
+                htmlFor="extraAttendees">
                 Who else is coming with you?
               </label>
               <input
@@ -103,12 +115,14 @@ exports[`component structure renders correctly 1`] = `
             </div>
           </div>
           <div
-            className="col-xs-12">
+            className="col-xs-12 
+                undefined 
+                undefined">
             <div
               className="sc-bZQynM bSnXeh">
               <label
                 className="sc-ifAKCX iPUEyZ"
-                for={undefined}>
+                htmlFor="songSuggestion">
                 Do you have any song suggestions?
               </label>
               <input
@@ -121,12 +135,14 @@ exports[`component structure renders correctly 1`] = `
             </div>
           </div>
           <div
-            className="col-xs-12">
+            className="col-xs-12 
+                undefined 
+                undefined">
             <div
               className="sc-htoDjs bswhhT">
               <label
                 className="sc-ifAKCX iPUEyZ"
-                for={undefined}>
+                htmlFor="message">
                 Are you as excited as we are? Let us know!
               </label>
               <textarea
@@ -138,7 +154,9 @@ exports[`component structure renders correctly 1`] = `
             </div>
           </div>
           <div
-            className="col-xs-12">
+            className="col-xs-12 
+                undefined 
+                undefined">
             <button
               className="sc-bwzfXH bOFSPc"
               type="submit">

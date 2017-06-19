@@ -1,11 +1,13 @@
 exports[`component structure renders correctly 1`] = `
 <div
-  className="col-xs-12">
+  className="col-xs-12 
+      undefined 
+      undefined">
   <div
     className="sc-htpNat hvvDZo">
     <label
       className="sc-bdVaJa fxdtZh"
-      for={undefined} />
+      htmlFor="identifier" />
     <input
       className="sc-bwzfXH gmTCEv"
       id="identifier"

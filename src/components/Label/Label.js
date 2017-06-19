@@ -9,7 +9,7 @@ const LabelCore= ({ children, identifier, className }) => {
   return (
     <label
       className={className}
-      for={identifier}
+      htmlFor={identifier}
     >
       {children}
     </label>
