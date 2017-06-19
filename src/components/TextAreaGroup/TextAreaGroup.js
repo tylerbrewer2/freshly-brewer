@@ -17,9 +17,9 @@ const TextAreaGroupCore = ({
     width
   }) => {
   return (
-    <Col width={width}>
+    <Col mobileWidth={width}>
       <div className={className}>
-        <Label>{labelText}</Label>
+        <Label identifier={identifier}>{labelText}</Label>
         <TextArea
           value={value}
           onChange={onChange}

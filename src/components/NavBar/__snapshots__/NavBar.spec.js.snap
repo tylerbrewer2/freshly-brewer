@@ -2,14 +2,18 @@ exports[`test renders correctly 1`] = `
 <div
   className="sc-bxivhb hMoIAM middle-xs  row">
   <div
-    className="col-xs-6">
+    className="col-xs-6 
+        undefined 
+        undefined">
     <h1
-      className="sc-bdVaJa jqgrlj">
+      className="sc-bdVaJa kgyTWr">
       MORGAN & TYLER
     </h1>
   </div>
   <div
-    className="col-xs-6">
+    className="col-xs-6 
+        undefined 
+        undefined">
     <div
       className="sc-bwzfXH kOgWQe"
       direction="right">
@@ -21,27 +25,9 @@ exports[`test renders correctly 1`] = `
       </a>
       <a
         className="sc-htpNat eXURAF"
-        href="/"
+        href="/rsvp"
         onClick={[Function]}>
-        CEREMONY
-      </a>
-      <a
-        className="sc-htpNat eXURAF"
-        href="/"
-        onClick={[Function]}>
-        GALLERY
-      </a>
-      <a
-        className="sc-htpNat eXURAF"
-        href="/"
-        onClick={[Function]}>
-        PARTY
-      </a>
-      <a
-        className="sc-htpNat eXURAF"
-        href="/"
-        onClick={[Function]}>
-        FAQ
+        RSVP
       </a>
     </div>
   </div>

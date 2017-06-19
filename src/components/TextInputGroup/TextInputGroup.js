@@ -16,9 +16,9 @@ const TextInputGroupCore = ({
     required,
     width
   }) => (
-  <Col width={width}>
+  <Col mobileWidth={width}>
     <div className={className}>
-      <Label>{labelText}</Label>
+    <Label identifier={identifier}>{labelText}</Label>
       <TextInput
         value={value}
         onChange={onChange}

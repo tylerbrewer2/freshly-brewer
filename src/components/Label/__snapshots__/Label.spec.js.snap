@@ -1,7 +1,7 @@
 exports[`component structure renders correctly 1`] = `
 <label
   className="sc-bdVaJa fxdtZh"
-  for="identifier">
+  htmlFor="identifier">
   Test value
 </label>
 `;

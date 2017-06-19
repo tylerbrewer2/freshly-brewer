@@ -3,6 +3,9 @@ import styled from 'styled-components';
 
 import LargeText from '../LargeText';
 
+// Style Helpers
+import MediaWidths from '../../styles/helpers/MediaWidths';
+
 const InitialsSymbolCore = ({ className }) => {
   return (
     <div className={className}>
@@ -15,6 +18,10 @@ const InitialsSymbolCore = ({ className }) => {
 
 const InitialsSymbol = styled(InitialsSymbolCore)`
   text-align: center;
+
+	@media (${MediaWidths.mobile}) {
+		display: none;
+	}
 `
 
 export default InitialsSymbol;

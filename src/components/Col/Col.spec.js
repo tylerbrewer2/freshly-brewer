@@ -5,7 +5,7 @@ import Col from './Col';
 
 it('renders correctly', () => {
   const tree = renderer.create(
-    <Col width={6}>
+    <Col desktopWidth={6}>
       <p>Hello</p>
     </Col>
   ).toJSON();

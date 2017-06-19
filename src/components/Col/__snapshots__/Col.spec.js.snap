@@ -1,6 +1,8 @@
 exports[`test renders correctly 1`] = `
 <div
-  className="col-xs-6">
+  className="col-xs-undefined 
+      undefined 
+      col-md-6">
   <p>
     Hello
   </p>

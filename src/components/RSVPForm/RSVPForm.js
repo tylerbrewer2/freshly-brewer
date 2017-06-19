@@ -48,7 +48,7 @@ export default class RSVPForm extends React.Component {
         <Form
           onSubmit={this.onSubmit}
           title="RSVP for December 2nd, 2017"
-          width={6}
+          mobileWidth={6}
           requestResponse={this.state.response}
         >
           <TextInputGroup
@@ -108,10 +108,3 @@ export default class RSVPForm extends React.Component {
     )
   }
 };
-
-        // <TextAreaGroup
-        //   labelText="Are you as excited as we are? Let us know!"
-        //   identifier="message"
-        //   value={this.state.message}
-        //   onChange={this.onChange}
-        // />

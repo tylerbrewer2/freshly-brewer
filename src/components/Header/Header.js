@@ -1,7 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const HeaderCore = ({ className, tag, marginBottom, children }) => {
+// Style Headers
+import MediaWidths from '../../styles/helpers/MediaWidths';
+
+const HeaderCore = ({ className, tag, marginBottom, mobileMarginBottom, children }) => {
   const HeaderTag = tag || "h1";
 
   return (
@@ -13,7 +16,11 @@ const Header = styled(HeaderCore)`
   margin: 0;
   font-family: "FreightBook", "serif";
   letter-spacing: 3px;  
-  margin-bottom: ${props => props.marginBottom ? props.marginBottom : ''}
+  margin-bottom: ${props => props.marginBottom && props.marginBottom};
+
+  @media (${MediaWidths.mobile}) {
+    ${props => props.mobileMarginBottom && `margin-bottom: ${props.mobileMarginBottom}`}
+  }
 `
 
 export default Header;

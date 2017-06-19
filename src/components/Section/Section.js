@@ -1,6 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 
+// Style Helpers
+import MediaWidths from '../../styles/helpers/MediaWidths';
+
 const SectionCore = ({className, children }) => {
   return (
     <section className={className}>
@@ -14,6 +17,10 @@ const Section = styled(SectionCore)`
   text-align: ${props => props.centered ? 'center' : ''};
   max-width: ${props => props.full ? '' : '90%'};
   margin: 0 auto;
+
+  @media (${MediaWidths.mobile}) {
+    padding: 60px 0;
+  }
 `
 
 export default Section;

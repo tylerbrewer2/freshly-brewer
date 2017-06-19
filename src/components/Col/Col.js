@@ -1,8 +1,12 @@
 import React from 'react';
 
-const Col = ({ width, children }) => {
+const Col = ({ width, desktopWidth, mobileWidth, tabletWidth, children }) => {
   return (
-    <div className={`col-xs-${width}`}>
+    <div className={
+      `col-xs-${mobileWidth || width} 
+      ${tabletWidth && `col-sm-${tabletWidth}`} 
+      ${desktopWidth && `col-md-${desktopWidth}`}`
+    }>
       {children}
     </div>
   )

@@ -25,13 +25,13 @@ const FormCore = ({
 
   return (
     <Row center>
-      <Col width={width}>
+      <Col mobileWidth={width}>
         <section className={className}>
           <Header marginBottom="15px">{title}</Header>
           <form onSubmit={handleOnSubmit}>
             {children}
 
-            <Col width={12}>
+            <Col mobileWidth={12}>
               <Button
                 type='submit'
                 fullWidth

@@ -14,16 +14,13 @@ const NavBarCore = ({ className }) => {
       className={className}
       middle
     >
-      <Col width={6}>
+      <Col mobileWidth={6}>
         <Header tag="h1">MORGAN & TYLER</Header>
       </Col>
-      <Col width={6}>
+      <Col mobileWidth={6}>
         <FloatWrapper direction='right'>
           <NavItem to="/">HOME</NavItem>
-          <NavItem to="/">CEREMONY</NavItem>
-          <NavItem to="/">GALLERY</NavItem>
-          <NavItem to="/">PARTY</NavItem>
-          <NavItem to="/">FAQ</NavItem>
+          <NavItem to="/rsvp">RSVP</NavItem>
         </FloatWrapper>
       </Col>
     </Row>

@@ -2,18 +2,22 @@ exports[`component structure renders correctly 1`] = `
 <div
   className="undefined  center-xs row">
   <div
-    className="col-xs-undefined">
+    className="col-xs-undefined 
+        undefined 
+        undefined">
     <section
       className="sc-bxivhb eianJZ">
       <h1
-        className="sc-bdVaJa dcMGOa">
+        className="sc-bdVaJa fOkMPb">
         Test title
       </h1>
       <form
         onSubmit={[Function]}>
         Test child
         <div
-          className="col-xs-12">
+          className="col-xs-12 
+              undefined 
+              undefined">
           <button
             className="sc-bwzfXH bOFSPc"
             type="submit">
