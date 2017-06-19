@@ -48,7 +48,8 @@ export default class RSVPForm extends React.Component {
         <Form
           onSubmit={this.onSubmit}
           title="RSVP for December 2nd, 2017"
-          mobileWidth={6}
+          mobileWidth={10}
+          tabletWidth={6}
           requestResponse={this.state.response}
         >
           <TextInputGroup
