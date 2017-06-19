@@ -3,8 +3,8 @@ exports[`component structure renders correctly 1`] = `
   <div
     className="undefined  center-xs row">
     <div
-      className="col-xs-undefined 
-          undefined 
+      className="col-xs-10 
+          col-sm-6 
           undefined">
       <section
         className="sc-bxivhb eianJZ">

@@ -14,7 +14,8 @@ const FormCore = ({
   title,
   submitButtonText,
   children,
-  width,
+  mobileWidth,
+  tabletWidth,
   requestResponse,
   className
 }) => {
@@ -25,7 +26,7 @@ const FormCore = ({
 
   return (
     <Row center>
-      <Col mobileWidth={width}>
+      <Col mobileWidth={mobileWidth} tabletWidth={tabletWidth}>
         <section className={className}>
           <Header marginBottom="15px">{title}</Header>
           <form onSubmit={handleOnSubmit}>
@@ -55,6 +56,8 @@ FormCore.propTypes = {
   onSubmit: PropTypes.func.isRequired,
   title: PropTypes.string.isRequired,
   submitButtonText: PropTypes.string,
+  mobileWidth: PropTypes.string.isRequired,
+  tabletWidth: PropTypes.string.isRequired,
   requestResponse: PropTypes.shape({
     status: PropTypes.string,
     message: PropTypes.string,
