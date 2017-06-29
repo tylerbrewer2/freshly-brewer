@@ -2,7 +2,7 @@
   "name": "freshly-brewer",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://tylerbrewer2.github.io/freshly-brewer",
+  "homepage": "https://freshlybrewers.com",
   "dependencies": {
     "date-fns": "^1.28.5",
     "firebase": "^4.1.1",
