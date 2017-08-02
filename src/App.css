@@ -12,3 +12,7 @@
   font-family: 'AvenirNextBold';
   src: url(styles/fonts/avenir-next-bold.ttf);
 }
+
+* {
+  box-sizing: border-box;
+}
