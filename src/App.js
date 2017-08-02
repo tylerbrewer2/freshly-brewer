@@ -19,24 +19,22 @@ import fieldbw from './images/fieldbw.png'
 import './App.css';
 
 const App = () => (
-  <SosContainer backgroundImage={fieldbw} />
+  <Router>
+    <ScrollToTop>
+      <div className="App">
+        <NavBar />
+        {routes.map((route, i) => (
+          <Route
+            key={i}
+            exact
+            path={route.path}
+            component={route.component}
+          />
+        ))}
+        <Footer />
+      </div>
+    </ScrollToTop>
+  </Router>
 )
-
-// <Router>
-//   <ScrollToTop>
-//     <div className="App">
-//       <NavBar />
-//       {routes.map((route, i) => (
-//         <Route
-//           key={i}
-//           exact
-//           path={route.path}
-//           component={route.component}
-//         />
-//       ))}
-//       <Footer />
-//     </div>
-//   </ScrollToTop>
-// </Router>
 
 export default App;
