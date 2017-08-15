@@ -1,4 +1,5 @@
 import firebase from 'firebase';
+import ErrorLogger from '../ErrorLogger';
 
 export default class AttendeeGenerator {
   constructor(attendee){
@@ -26,10 +27,7 @@ export default class AttendeeGenerator {
 
   handleError(error, errorMessage) {
     const errorId = this.generateErrorId();
-    console.error({
-      message: error,
-      user: this.attendee,
-    })
+    ErrorLogger.log(error, { user: this.attendee });
 
     return {
       status: 'error',
