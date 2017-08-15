@@ -20,25 +20,45 @@ export default class AttendeeGenerator {
     }
   }
 
-  create({
+  generateErrorId() {
+    return `Error Id: ${Math.random().toString(36).substring(7)}`; 
+  }
+
+  handleError(error, errorMessage) {
+    const errorId = this.generateErrorId();
+    console.error({
+      message: error,
+      user: this.attendee,
+    })
+
+    return {
+      status: 'error',
+      message: `${errorId}: ${errorMessage}`,
+    }
+  }
+
+  async create({
     successMessage = 'Request was successful.',
-    errorMessage = 'There was an issue with the request. Please try again or contact Tyler or Morgan if it continues to fail.'
+    errorMessage = 'There was an issue with the request. Please try again or contact Tyler or Morgan with the "Error Id" if failure continues.',
   }) {
+    if (!this.attendee.firstName && !this.attendee.lastName) { return }
+
+    let response;
     try {
-      firebase.database()
-              .ref(`attendees/${this.attendee.firstName}${this.attendee.lastName}`)
-              .set(this.attendee);
-      return {
-        status: 'success',
-        message: successMessage,
-      }
+      response =
+        await firebase.database()
+                      .ref(`attendees/${this.attendee.firstName}${this.attendee.lastName}`)
+                      .set(this.attendee)
+                      .then(() => (
+                        {
+                          status: 'success',
+                          message: successMessage,
+                        }
+                      ));
+    } catch(error) {
+      response = this.handleError(error, errorMessage);
     }
-    catch(error) {
-      console.log(error);
-      return {
-        status: 'error',
-        message: errorMessage,
-      }
-    }
+
+   return response;
   }
 }
