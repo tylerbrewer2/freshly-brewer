@@ -13,6 +13,7 @@ exports[`component structure renders correctly 1`] = `
       id="identifier"
       name="identifier"
       onChange={[Function]}
+      required={false}
       type="text"
       value="test value" />
   </div>

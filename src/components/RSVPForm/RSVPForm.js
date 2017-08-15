@@ -30,12 +30,12 @@ export default class RSVPForm extends React.Component {
     }));
   }
 
-  onSubmit = (e) => {
+  onSubmit = async (e) => {
     e.preventDefault();
     const state = Object.assign({}, this.state)
     delete state.response
     const attendeeCreator = new AttendeeCreator(state);
-    const response = attendeeCreator.create({ successMessage: 'RSVP successfully sent.' });
+    const response = await attendeeCreator.create({ successMessage: 'RSVP successfully sent.' })
     this.setState(prev => ({
       ...prev,
       response,
@@ -55,6 +55,7 @@ export default class RSVPForm extends React.Component {
           <TextInputGroup
             labelText="Email*"
             identifier="email"
+            type="email"
             value={this.state.email}
             onChange={this.onChange}
             required
