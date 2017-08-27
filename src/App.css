@@ -4,6 +4,11 @@
 }
 
 @font-face {
+  font-family: 'FreightBold';
+  src: url(styles/fonts/freight-big-bold.otf);
+}
+
+@font-face {
   font-family: 'AvenirNextRegular';
   src: url(styles/fonts/avenir-next-regular.ttf);
 }

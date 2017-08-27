@@ -11,10 +11,9 @@ import routes from './routes.js';
 
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
+import CTABar from './components/CTABar';
 
-import SosContainer from './containers/Sos';
-import fieldbw from './images/fieldbw.png'
-
+// import fieldbw from './images/fieldbw.png'
 
 import './App.css';
 
@@ -22,6 +21,7 @@ const App = () => (
   <Router>
     <ScrollToTop>
       <div className="App">
+        <CTABar>PLEASE RSVP BY 11/15</CTABar>
         <NavBar />
         {routes.map((route, i) => (
           <Route

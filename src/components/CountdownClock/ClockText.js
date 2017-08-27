@@ -35,7 +35,6 @@ class ClockTextCore extends React.Component{
 
 const ClockText = styled(ClockTextCore)`
   font-family: 'AvenirNextRegular', 'Helvetica', 'sans-serif';
-  color: white;
   letter-spacing: 1.5
 `
 

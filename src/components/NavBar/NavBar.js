@@ -3,10 +3,11 @@ import styled from 'styled-components';
 
 import Row from '../Row';
 import Col from '../Col';
-import Header from '../Header';
 import FloatWrapper from '../FloatWrapper';
+import Image from '../Image';
+import NavItem from '../NavItem';
 
-import NavItem from './NavItem';
+import logo from '../../images/logo.svg';
 
 const NavBarCore = ({ className }) => {
   return(
@@ -14,13 +15,25 @@ const NavBarCore = ({ className }) => {
       className={className}
       middle
     >
-      <Col mobileWidth={6}>
-        <Header tag="h1">MORGAN & TYLER</Header>
-      </Col>
-      <Col mobileWidth={6}>
+      <Col mobileWidth={5}>
         <FloatWrapper direction='right'>
           <NavItem to="/">HOME</NavItem>
+          <NavItem to="#">DETAILS</NavItem>
+        </FloatWrapper>
+      </Col>
+      <Col
+        mobileWidth={2}
+        center
+      >
+        <Image
+          height="100px"
+          src={logo}
+        />
+      </Col>
+      <Col mobileWidth={5}>
+        <FloatWrapper direction='left'>
           <NavItem to="/rsvp">RSVP</NavItem>
+          <NavItem to="#">REGISTRY</NavItem>
         </FloatWrapper>
       </Col>
     </Row>
@@ -28,7 +41,7 @@ const NavBarCore = ({ className }) => {
 }
 
 const NavBar = styled(NavBarCore)`
-  height: 100px;
+  height: 150px;
   max-width: 90%;
   margin: 0 auto;
 `

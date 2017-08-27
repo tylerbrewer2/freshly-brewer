@@ -1,33 +1,57 @@
 exports[`test renders correctly 1`] = `
 <div
-  className="sc-bxivhb hMoIAM middle-xs  row">
+  className="sc-bxivhb kHgKcA middle-xs  row">
   <div
-    className="col-xs-6 
+    className="col-xs-5 
         undefined 
-        undefined">
-    <h1
-      className="sc-bdVaJa kgyTWr">
-      MORGAN & TYLER
-    </h1>
-  </div>
-  <div
-    className="col-xs-6 
-        undefined 
-        undefined">
+        undefined
+        ">
     <div
-      className="sc-bwzfXH kOgWQe"
+      className="sc-bdVaJa gSzrNk"
       direction="right">
       <a
-        className="sc-htpNat eXURAF"
+        className="sc-htpNat KBcbQ"
         href="/"
         onClick={[Function]}>
         HOME
       </a>
       <a
-        className="sc-htpNat eXURAF"
+        className="sc-htpNat KBcbQ"
+        href="#"
+        onClick={[Function]}>
+        DETAILS
+      </a>
+    </div>
+  </div>
+  <div
+    className="col-xs-2 
+        undefined 
+        undefined
+        center-xs">
+    <img
+      className="sc-bwzfXH byruEg"
+      height="100px"
+      src="logo.svg" />
+  </div>
+  <div
+    className="col-xs-5 
+        undefined 
+        undefined
+        ">
+    <div
+      className="sc-bdVaJa gKPlzC"
+      direction="left">
+      <a
+        className="sc-htpNat KBcbQ"
         href="/rsvp"
         onClick={[Function]}>
         RSVP
+      </a>
+      <a
+        className="sc-htpNat KBcbQ"
+        href="#"
+        onClick={[Function]}>
+        REGISTRY
       </a>
     </div>
   </div>

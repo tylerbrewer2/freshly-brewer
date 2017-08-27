@@ -11,7 +11,7 @@ const RSVPSection = () => {
         RSVP to our wedding in Baltimore, Maryland on <br />
         December 2nd, 2017.
       </Header>
-      <LinkButton to="/rsvp">CONTACT US</LinkButton>
+      <LinkButton to="/rsvp">RSVP</LinkButton>
     </Section>
   )
 }
