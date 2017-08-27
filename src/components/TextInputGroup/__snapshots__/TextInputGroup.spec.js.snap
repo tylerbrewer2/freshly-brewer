@@ -2,7 +2,8 @@ exports[`component structure renders correctly 1`] = `
 <div
   className="col-xs-12 
       undefined 
-      undefined">
+      undefined
+      ">
   <div
     className="sc-htpNat hvvDZo">
     <label

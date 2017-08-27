@@ -1,10 +1,12 @@
 import styled from 'styled-components';
 
+import Colors from '../../styles/helpers/Colors';
+
 const Button = styled.button`
   padding: 10px 20px;
   font-family: 'AvenirNextRegular';
   color: white;
-  background-color: #113040;
+  background-color: ${Colors.black};
   border: 0;
   font-size: 12px;
   letter-spacing: 1.5px;
@@ -14,7 +16,7 @@ const Button = styled.button`
   text-decoration: none;
   &:hover {
     cursor: pointer;
-    background-color: #030C11;
+    background-color: ${Colors.richBlack};
   };
   width: ${ props => props.fullWidth ? '100%' : ''};
 `

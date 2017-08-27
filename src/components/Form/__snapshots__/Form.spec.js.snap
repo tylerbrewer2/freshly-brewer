@@ -4,7 +4,8 @@ exports[`component structure renders correctly 1`] = `
   <div
     className="col-xs-undefined 
         undefined 
-        undefined">
+        undefined
+        ">
     <section
       className="sc-bxivhb eianJZ">
       <h1
@@ -17,9 +18,10 @@ exports[`component structure renders correctly 1`] = `
         <div
           className="col-xs-12 
               undefined 
-              undefined">
+              undefined
+              ">
           <button
-            className="sc-bwzfXH bOFSPc"
+            className="sc-bwzfXH foOjvG"
             type="submit">
             Test message
           </button>

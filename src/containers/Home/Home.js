@@ -4,22 +4,20 @@ import React from 'react';
 import CountdownSection from '../../components/CountdownSection';
 import FullWidthImage from '../../components/FullWidthImage';
 import PersonalInfo from '../../components/PersonalInfo';
-import RSVPSection from '../../components/RSVPSection';
 
 // Images
-import field from '../../images/field.jpg';
-import dc from '../../images/dc.jpg';
+import baldSpotCity from '../../images/baldSpotCity.jpg';
+import leaves from '../../images/leaves.svg';
 
 const Home = () => {
   return (
     <div>
       <FullWidthImage
-        src={field}
+        src={baldSpotCity}
         banner
       />
       <PersonalInfo />
-      <CountdownSection backgroundImage={dc}/>
-      <RSVPSection />
+      <CountdownSection backgroundImage={leaves}/>
     </div>
   )
 }
