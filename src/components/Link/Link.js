@@ -23,11 +23,17 @@ LinkCore.propTypes = {
 }
 
 const Link = styled(LinkCore)`
-  text-decoration: none;
+  font-family: ${Fonts.body};
+  list-style: none;
+  margin-left: 45px;
+  margin-right: 45px;
+  float: left;
+  font-size: 12px;
   color: ${Colors.richBlack};
+  letter-spacing: 3px;
+  text-decoration: none;
   &:hover {
     text-decoration: underline;
-    font-family: ${Fonts.bodyBold};
   }
 `
 
