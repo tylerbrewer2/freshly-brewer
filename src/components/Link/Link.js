@@ -25,8 +25,6 @@ LinkCore.propTypes = {
 const Link = styled(LinkCore)`
   font-family: ${Fonts.body};
   list-style: none;
-  margin-left: 45px;
-  margin-right: 45px;
   float: left;
   font-size: 12px;
   color: ${Colors.richBlack};
@@ -35,6 +33,7 @@ const Link = styled(LinkCore)`
   &:hover {
     text-decoration: underline;
   }
+
 `
 
 export default Link;
