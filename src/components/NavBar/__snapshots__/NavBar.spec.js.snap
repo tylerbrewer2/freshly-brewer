@@ -51,7 +51,7 @@ exports[`test renders correctly 1`] = `
         </a>
         <a
           className="sc-htpNat kmAcjh"
-          href="#"
+          href="/registry"
           onClick={[Function]}>
           REGISTRY
         </a>
@@ -169,7 +169,7 @@ exports[`test renders correctly 1`] = `
             </a>
             <a
               className="sc-htpNat kmAcjh"
-              href="#"
+              href="/registry"
               onClick={[Function]}
               style={
                 Object {

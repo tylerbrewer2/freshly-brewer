@@ -73,7 +73,7 @@ class MobileNavCore extends React.Component {
           <NavItem to="/">HOME</NavItem>
           <NavItem to="/details">DETAILS</NavItem>
           <NavItem to="/rsvp">RSVP</NavItem>
-          <NavItem to="#">REGISTRY</NavItem>
+          <NavItem to="/registry">REGISTRY</NavItem>
         </Menu>
       </div>
     )
