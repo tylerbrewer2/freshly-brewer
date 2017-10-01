@@ -1,5 +1,6 @@
 import Home from './containers/Home';
 import RSVP from './containers/RSVP';
+import Details from './containers/Details';
 import Splash from './components/Splash'
 
 const routes = [
@@ -14,6 +15,10 @@ const routes = [
   {
     path: '/rsvp',
     component: RSVP,
+  },
+  {
+    path: '/details',
+    component: Details,
   }
 ];
 
