@@ -120,7 +120,7 @@ exports[`component structure renders correctly 1`] = `
                 id="food"
                 name="food"
                 onChange={[Function]}
-                required={true}
+                required={false}
                 type="text"
                 value="" />
             </div>
@@ -164,7 +164,7 @@ exports[`component structure renders correctly 1`] = `
                 id="guestFood"
                 name="guestFood"
                 onChange={[Function]}
-                required={true}
+                required={false}
                 type="text"
                 value="" />
             </div>
