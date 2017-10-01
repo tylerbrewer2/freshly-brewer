@@ -92,7 +92,6 @@ export default class RSVPForm extends React.Component {
             identifier="food"
             value={this.state.food}
             onChange={this.onChange}
-            required
           />
 
           <TextInputGroup
@@ -107,7 +106,6 @@ export default class RSVPForm extends React.Component {
             identifier="guestFood"
             value={this.state.guestFood}
             onChange={this.onChange}
-            required
           />
 
           <TextInputGroup
