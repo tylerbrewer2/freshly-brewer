@@ -71,7 +71,7 @@ class MobileNavCore extends React.Component {
 
         <Menu isOpen={false} right styles={styles}>
           <NavItem to="/">HOME</NavItem>
-          <NavItem to="#">DETAILS</NavItem>
+          <NavItem to="/details">DETAILS</NavItem>
           <NavItem to="/rsvp">RSVP</NavItem>
           <NavItem to="#">REGISTRY</NavItem>
         </Menu>

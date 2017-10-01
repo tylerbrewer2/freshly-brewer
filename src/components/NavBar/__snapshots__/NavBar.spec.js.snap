@@ -19,7 +19,7 @@ exports[`test renders correctly 1`] = `
         </a>
         <a
           className="sc-htpNat kmAcjh"
-          href="#"
+          href="/details"
           onClick={[Function]}>
           DETAILS
         </a>
@@ -145,7 +145,7 @@ exports[`test renders correctly 1`] = `
             </a>
             <a
               className="sc-htpNat kmAcjh"
-              href="#"
+              href="/details"
               onClick={[Function]}
               style={
                 Object {
