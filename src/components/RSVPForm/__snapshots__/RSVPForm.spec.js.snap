@@ -112,6 +112,28 @@ exports[`component structure renders correctly 1`] = `
               className="sc-bZQynM bSnXeh">
               <label
                 className="sc-ifAKCX iPUEyZ"
+                htmlFor="food">
+                Would you like braised boneless beef or autumn roasted salmon?
+              </label>
+              <input
+                className="sc-EHOje iUexnX"
+                id="food"
+                name="food"
+                onChange={[Function]}
+                required={true}
+                type="text"
+                value="" />
+            </div>
+          </div>
+          <div
+            className="col-xs-12 
+                undefined 
+                undefined
+                ">
+            <div
+              className="sc-bZQynM bSnXeh">
+              <label
+                className="sc-ifAKCX iPUEyZ"
                 htmlFor="extraAttendees">
                 Who else is coming with you?
               </label>
@@ -121,6 +143,28 @@ exports[`component structure renders correctly 1`] = `
                 name="extraAttendees"
                 onChange={[Function]}
                 required={false}
+                type="text"
+                value="" />
+            </div>
+          </div>
+          <div
+            className="col-xs-12 
+                undefined 
+                undefined
+                ">
+            <div
+              className="sc-bZQynM bSnXeh">
+              <label
+                className="sc-ifAKCX iPUEyZ"
+                htmlFor="guestFood">
+                Would your guest like braised boneless beef or autumn roasted salmon?
+              </label>
+              <input
+                className="sc-EHOje iUexnX"
+                id="guestFood"
+                name="guestFood"
+                onChange={[Function]}
+                required={true}
                 type="text"
                 value="" />
             </div>
