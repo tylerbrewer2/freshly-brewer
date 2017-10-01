@@ -15,7 +15,9 @@ export default class RSVPForm extends React.Component {
     firstName: '',
     lastName: '',
     attending: '',
+    food: '',
     extraAttendees: '',
+    guestFood: '',
     songSuggestion: '',
     message: '',
     response: undefined,
@@ -86,10 +88,26 @@ export default class RSVPForm extends React.Component {
           />
 
           <TextInputGroup
+            labelText="Would you like braised boneless beef or autumn roasted salmon?"
+            identifier="food"
+            value={this.state.food}
+            onChange={this.onChange}
+            required
+          />
+
+          <TextInputGroup
             labelText="Who else is coming with you?"
             identifier="extraAttendees"
             value={this.state.extraAttendees}
             onChange={this.onChange}
+          />
+
+          <TextInputGroup
+            labelText="Would your guest like braised boneless beef or autumn roasted salmon?"
+            identifier="guestFood"
+            value={this.state.guestFood}
+            onChange={this.onChange}
+            required
           />
 
           <TextInputGroup
