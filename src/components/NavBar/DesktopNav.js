@@ -33,7 +33,7 @@ const DesktopNavCore = ({ className }) => (
     <Col mobileWidth={5}>
       <FloatWrapper direction='left'>
         <NavItem to="/rsvp">RSVP</NavItem>
-        <NavItem to="#">REGISTRY</NavItem>
+        <NavItem to="/registry">REGISTRY</NavItem>
       </FloatWrapper>
     </Col>
   </Row>
