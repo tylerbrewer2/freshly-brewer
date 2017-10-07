@@ -2,6 +2,7 @@ import React from 'react';
 import {
   BrowserRouter as Router,
   BrowserHistory,
+  Switch,
   Route,
 } from 'react-router-dom'
 
@@ -22,14 +23,16 @@ const App = () => (
       <div className="App">
         <CTABar>PLEASE RSVP BY 11/3</CTABar>
         <NavBar />
-        {routes.map((route, i) => (
-          <Route
-            key={i}
-            exact
-            path={route.path}
-            component={route.component}
-          />
-        ))}
+        <Switch>
+          {routes.map((route, i) => (
+            <Route
+              key={i}
+              exact
+              path={route.path}
+              component={route.component}
+            />
+          ))}
+        </Switch>
         <Footer />
       </div>
     </ScrollToTop>
