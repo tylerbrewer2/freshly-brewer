@@ -1,6 +1,7 @@
 import React from 'react';
 import {
   BrowserRouter as Router,
+  BrowserHistory,
   Route,
 } from 'react-router-dom'
 
@@ -13,15 +14,13 @@ import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 import CTABar from './components/CTABar';
 
-// import fieldbw from './images/fieldbw.png'
-
 import './App.css';
 
 const App = () => (
-  <Router>
+  <Router history={BrowserHistory}>
     <ScrollToTop>
       <div className="App">
-        <CTABar>PLEASE RSVP BY 11/15</CTABar>
+        <CTABar>PLEASE RSVP BY 11/3</CTABar>
         <NavBar />
         {routes.map((route, i) => (
           <Route
