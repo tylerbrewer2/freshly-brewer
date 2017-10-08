@@ -8,6 +8,7 @@ import Row from '../../components/Row';
 
 // images
 import nyc from '../../images/nyc-75.jpg';
+import bench from '../../images/bench-75.jpg';
 import target from '../../images/target.jpg';
 import anthropologie from '../../images/anthropologie.png';
 import amazon from '../../images/amazon.jpg';
@@ -16,7 +17,7 @@ const Registry = () => {
   return (
     <div>
       <FullWidthImage
-        src={nyc}
+        src={bench}
         banner
       />
       <Section>
