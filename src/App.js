@@ -17,22 +17,25 @@ import CTABar from './components/CTABar';
 
 import './App.css';
 
+const baseRoute = process.env.NODE_ENV === 'production' ? process.env.PUBLIC_URL : process.env.DEVELOPMENT_URL;
+
 const App = () => (
-  <Router history={BrowserHistory}>
+  <Router
+    history={BrowserHistory}
+    basename={baseRoute}
+  >
     <ScrollToTop>
       <div className="App">
         <CTABar>PLEASE RSVP BY 11/3</CTABar>
         <NavBar />
-        <Switch>
-          {routes.map((route, i) => (
-            <Route
-              key={i}
-              exact
-              path={route.path}
-              component={route.component}
-            />
-          ))}
-        </Switch>
+        {routes.map((route, i) => (
+          <Route
+            key={i}
+            exact
+            path={route.path}
+            component={route.component}
+          />
+        ))}
         <Footer />
       </div>
     </ScrollToTop>
