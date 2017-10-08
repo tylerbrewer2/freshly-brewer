@@ -25,10 +25,6 @@ const routes = [
     path: '/registry',
     component: Registry,
   },
-  // sets all other routes to the Home page
-  {
-    component: Home,
-  }
 ];
 
 export default routes;
