@@ -1,8 +1,6 @@
 import React from 'react';
 import {
-  BrowserRouter as Router,
-  BrowserHistory,
-  Switch,
+  HashRouter as Router,
   Route,
 } from 'react-router-dom'
 
@@ -17,13 +15,8 @@ import CTABar from './components/CTABar';
 
 import './App.css';
 
-const baseRoute = process.env.NODE_ENV === 'production' ? process.env.PUBLIC_URL : process.env.DEVELOPMENT_URL;
-
 const App = () => (
-  <Router
-    history={BrowserHistory}
-    basename={baseRoute}
-  >
+  <Router>
     <ScrollToTop>
       <div className="App">
         <CTABar>PLEASE RSVP BY 11/3</CTABar>
