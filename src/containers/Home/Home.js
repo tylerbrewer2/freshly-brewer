@@ -6,14 +6,14 @@ import FullWidthImage from '../../components/FullWidthImage';
 import PersonalInfo from '../../components/PersonalInfo';
 
 // Images
-import baldSpotCity from '../../images/baldSpotCity.jpg';
+import bench from '../../images/bench-75.jpg';
 import leaves from '../../images/leaves.svg';
 
 const Home = () => {
   return (
     <div>
       <FullWidthImage
-        src={baldSpotCity}
+        src={bench}
         banner
       />
       <PersonalInfo />

@@ -8,13 +8,13 @@ import BodyText from '../../components/BodyText';
 import Link from '../../components/Link';
 
 // Images
-import city from '../../images/city.jpg';
+import walk from '../../images/ny-walk-75.jpg';
 
 const Home = () => {
   return (
     <div>
       <FullWidthImage
-        src={city}
+        src={walk}
         banner
       />
       <Section>
@@ -36,7 +36,5 @@ const Home = () => {
 
 
 }
-
-// Ceremony location and time and then that we have hotels blocked off at the Raddison and maybe a link or something
 
 export default Home;

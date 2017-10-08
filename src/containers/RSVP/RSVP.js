@@ -5,13 +5,13 @@ import FullWidthImage from '../../components/FullWidthImage';
 import RSVPForm from '../../components/RSVPForm';
 
 // Images
-import fieldbw from '../../images/fieldbw.png'
+import stairs from '../../images/stairs-75.jpg';
 
 const RSVP = () => {
   return (
     <section>
       <FullWidthImage
-        src={fieldbw}
+        src={stairs}
         banner
       />
       <RSVPForm />
