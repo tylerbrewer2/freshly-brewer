@@ -7,7 +7,6 @@ import RegistryCard from '../../components/RegistryCard';
 import Row from '../../components/Row';
 
 // images
-import nyc from '../../images/nyc-75.jpg';
 import bench from '../../images/bench-75.jpg';
 import target from '../../images/target.jpg';
 import anthropologie from '../../images/anthropologie.png';
